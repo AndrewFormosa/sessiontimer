@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
 
+
 .App {
   text-align: center;
 }
@@ -33,22 +34,104 @@
   font-family: 'Orbitron', sans-serif;
   width:350px;
   height:500px;
-  background: grey;
+  background-color: #888888;
   border-style: outset;
 }
-.timer-display{
-  color:rgb(1, 255, 1);
-  width:70%;
+
+.title-text{
+  margin:5px;
+  font-size: 1.4rem;
+  color:silver;
+  text-shadow: black 1px 1px 2px;
+  text-decoration: solid;
+  
+}
+
+.main-display{
+ width:80%;
   margin:auto;
-  font-size: 3rem;
+  margin-top:10px;
+ background:black;
+  border-style:inset;
+  border-radius:10px;
+}
+.session-display{
+  text-align: left;
+  margin-left:10px;
+  font-size: 1rem;
+  color:green;
+}
+
+.timer-display{
+  align-items: center;
+  color:rgb(1, 255, 1);
+  font-size: 4rem;
+  padding-top:none;
+}
+
+.start, .reset{
+  font-size:1rem;
+  color:rgb(9, 255, 0);
+  width:80px;
+  margin:20px;
+  background:rgb(83, 83, 83);
+  border:none;
+  border-style: outset;
+  box-shadow: 1px 1px #282c34;
+  border-radius: 10px;
+}
+.start:active, .reset:active{
+  transform: translate(1px,1px);
+  box-shadow: none;
+}
+
+.controls{
+  display:flex;
+  justify-content: space-around;
+  border:1px solid greenyellow;
+}
+.session-controls{
+  color:black;
+ text-align: center;
+  width:120px;
+  border: 1px solid blue;
+}
+.break-controls{
+  border:1px solid red;
+}
+.variable-display{
+  align-items: center;
+  color:rgb(1, 255, 1);
+  width:50%;
+  margin:auto;
+  margin-top:0px;
+  margin-bottom: 5px;
+  font-size: 1.5rem;
   background:black;
   border-style:inset;
   border-radius:10px;
 }
 
+.control-button{
+  margin-top:3px;
+  margin-bottom:0px;
+  color:rgb(9, 255, 0);
+  width:50px;
+  height:30px;
+  background:rgb(83, 83, 83);
+  border:none;
+  border-style: outset;
+  box-shadow: 1px 1px #282c34;
+  border-radius: 10px;
+}
+
+
 .circ{
+  display:inline-flex;
+  align-self: center;
   box-shadow:0px 0px 9px red;
-  margin-left: 20px;
+  margin-top:5px;
+  margin-left:20px;
   width:20px;
   height:20px;
   border-radius: 50%;

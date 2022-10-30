@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sessiontimer/static/css/main.fb5d688f.css",
-    "main.js": "/sessiontimer/static/js/main.1166d7fe.js",
+    "main.css": "/sessiontimer/static/css/main.72d14089.css",
+    "main.js": "/sessiontimer/static/js/main.c6bd74d3.js",
     "static/js/787.48065850.chunk.js": "/sessiontimer/static/js/787.48065850.chunk.js",
     "static/media/silver.jpg": "/sessiontimer/static/media/silver.a66664cce59a5ae36229.jpg",
     "static/media/mixkit-alarm-clock-beep-988.wav": "/sessiontimer/static/media/mixkit-alarm-clock-beep-988.9c91a01e4cbaaaf936b1.wav",
@@ -17,12 +17,12 @@
     "static/media/material-icons.woff2": "/sessiontimer/static/media/material-icons.0c35d18bf06992036b69.woff2",
     "static/media/logo.svg": "/sessiontimer/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/sessiontimer/index.html",
-    "main.fb5d688f.css.map": "/sessiontimer/static/css/main.fb5d688f.css.map",
-    "main.1166d7fe.js.map": "/sessiontimer/static/js/main.1166d7fe.js.map",
+    "main.72d14089.css.map": "/sessiontimer/static/css/main.72d14089.css.map",
+    "main.c6bd74d3.js.map": "/sessiontimer/static/js/main.c6bd74d3.js.map",
     "787.48065850.chunk.js.map": "/sessiontimer/static/js/787.48065850.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb5d688f.css",
-    "static/js/main.1166d7fe.js"
+    "static/css/main.72d14089.css",
+    "static/js/main.c6bd74d3.js"
   ]
 }
